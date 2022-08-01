@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InteriorShare</string>
+    <string name="ImageUpload">이미지 업로드</string>
+    <string name = "Share">공유하기</string>
+</resources>
