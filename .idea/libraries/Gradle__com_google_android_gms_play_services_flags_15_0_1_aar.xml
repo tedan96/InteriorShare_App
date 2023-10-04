@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-flags:15.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/95c078eb3435e6e96978f01ca12b6bfb/transformed/play-services-flags-15.0.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/45f0469d3bd3bf4074d61b5129cd4e7e/transformed/jetified-play-services-flags-15.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/daemon/7.3.1/caches/transforms-3/3df0d073eb4a1cfcb45ded04a59d8b3a/transformed/play-services-flags-15.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/7.3.1/caches/transforms-3/3df0d073eb4a1cfcb45ded04a59d8b3a/transformed/play-services-flags-15.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b73a3ece8765be9e6ce291c8093b16c3/transformed/play-services-flags-15.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b73a3ece8765be9e6ce291c8093b16c3/transformed/play-services-flags-15.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b73a3ece8765be9e6ce291c8093b16c3/transformed/play-services-flags-15.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

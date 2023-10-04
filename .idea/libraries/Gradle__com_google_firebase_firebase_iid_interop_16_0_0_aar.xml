@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-iid-interop:16.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/f1634b7a821adde546b892684cbe9136/transformed/firebase-iid-interop-16.0.0/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/9f88b460ee56b2d234fef0af815bb0b3/transformed/jetified-firebase-iid-interop-16.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/daemon/7.3.1/caches/transforms-3/6fa7f1162dabbb2c06cdda9f10424c02/transformed/firebase-iid-interop-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/7.3.1/caches/transforms-3/6fa7f1162dabbb2c06cdda9f10424c02/transformed/firebase-iid-interop-16.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c28e43130bdcf18f6e104a2e0cb02e97/transformed/firebase-iid-interop-16.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c28e43130bdcf18f6e104a2e0cb02e97/transformed/firebase-iid-interop-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c28e43130bdcf18f6e104a2e0cb02e97/transformed/firebase-iid-interop-16.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
