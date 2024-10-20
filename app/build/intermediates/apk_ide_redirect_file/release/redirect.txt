@@ -1,2 +1,0 @@
-#- File Locator -
-listingFile=../../../../../../../BlogApp-master/BlogApp-master/app/release/output-metadata.json
