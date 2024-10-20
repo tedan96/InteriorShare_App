@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Chipmunk | 2021.2.1">
+
+    <issue
+        id="ScopedStorage"
+        message="WRITE_EXTERNAL_STORAGE no longer provides write access when targeting Android 11+, even when using `requestLegacyExternalStorage`">
+        <location
+            file="src\main\AndroidManifest.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="InlinedApi"
+        message="Field requires API level 18 (current min is 16): `android.content.Intent#EXTRA_ALLOW_MULTIPLE`">
+        <location
+            file="src\main\java\com\example\aws\blogapp\Activities\Home.java"
+            line="145"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="CustomSplashScreen"
+        message="The application should not provide its own launch screen">
+        <location
+            file="src\main\java\com\example\aws\blogapp\Activities\SplashActivity.java"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="CustomSplashScreen"
+        message="The application should not provide its own launch screen">
+        <location
+            file="src\main\java\com\example\aws\blogapp\Activities\SplashActivity.java"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.android.support.constraint:constraint-layout than 1.1.3 is available: 2.0.4">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.github.bumptech.glide:compiler than 4.8.0 is available: 4.12.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.github.bumptech.glide:glide than 4.8.0 is available: 4.12.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-auth than 16.0.1 is available: 21.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-core than 16.0.1 is available: 21.1.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-database than 16.0.1 is available: 20.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-storage than 16.0.1 is available: 20.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of junit:junit than 4.12 is available: 4.13.2">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="ExtraText"
+        message="Unexpected text found in layout file: &quot;app:layoutManager=&quot;androidx.recyclerview.widget.LinearLayoutManager&quot;&quot;">
+        <location
+            file="src\main\res\layout\activity_post_detail.xml"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="ExtraText"
+        message="Unexpected text found in layout file: &quot;app:layoutManager=&quot;androidx.recyclerview.widget.LinearLayoutManager&quot;&quot;">
+        <location
+            file="src\main\res\layout\fragment_home.xml"
+            line="9"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#fff` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\activity_login.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#fff` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\activity_post_detail.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#ffffff` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\activity_register.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#ffffff` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\nav_header_home.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#f4f4f4` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#8CCCF4` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        <location
+            file="src\main\res\layout\splash.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.fragment_profile` appears to be unused">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_camera` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_camera.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_gallery` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_gallery.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_manage` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_manage.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_send` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_send.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="7"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_share` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_share.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_slideshow` appears to be unused">
+        <location
+            file="src\main\res\drawable-v21\ic_menu_slideshow.xml"
+            line="1"/>
+        <location
+            file="src\main\res\values\drawables.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_person_black_24dp` appears to be unused">
+        <location
+            file="src\main\res\drawable\ic_person_black_24dp.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.side_nav_bar` appears to be unused">
+        <location
+            file="src\main\res\drawable\side_nav_bar.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.hello_blank_fragment` appears to be unused">
+        <location
+            file="src\main\res\values\strings.xml"
+            line="12"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/userphoto.png` in densityless folder">
+        <location
+            file="src\main\res\drawable\userphoto.png"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="38"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\activity_login.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\activity_post_detail.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\activity_register.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\app_bar_home.xml"
+            line="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\row_post_item.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\splash.xml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Home&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\menu\activity_home2_drawer.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Settings&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\menu\activity_home2_drawer.xml"
+            line="18"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Sign Out&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\menu\activity_home2_drawer.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;회원정보&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;&quot;Settings Fragment&quot;&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_settings.xml"
+            line="12"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;제목&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="31"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;내용&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="44"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="31"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Text Comment Goes Here&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;10:20&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="62"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginRight`; already defining `layout_marginEnd` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\popup_add_post.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="16"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="40"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginRight`; already defining `layout_marginEnd` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="43"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="58"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Redundant attribute `layout_marginRight`; already defining `layout_marginEnd` with `targetSdkVersion` 32">
+        <location
+            file="src\main\res\layout\row_comment.xml"
+            line="61"/>
+    </issue>
+
+    <issue
+        id="RtlEnabled"
+        message="You must set `android:targetSdkVersion` to at least 17 when enabling RTL support">
+        <location
+            file="src\main\AndroidManifest.xml"
+            line="14"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1087418875727",
+    "project_id": "boardapp-c40d9",
+    "firebase_url": "https://boardapp-c40d9-default-rtdb.firebaseio.com/",
+    "storage_bucket": "boardapp-c40d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087418875727:android:b20077342a4729a6278f3a",
+        "android_client_info": {
+          "package_name": "com.example.aws.InteriorShare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087418875727-jkule9amlssnphcddig4o62jlcjboj6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAfsJXlhHI5FjnrKRxlyjaM7KIfN6yGTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087418875727-jkule9amlssnphcddig4o62jlcjboj6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
